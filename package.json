@@ -29,6 +29,10 @@
   },
   "homepage": "https://github.com/your0rg/orbitdb-webtask#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "ipfs": "^0.30.1",
+    "orbit-db": "^0.19.8",
     "webtask-tools": "^3.2.1"
   }
 }
