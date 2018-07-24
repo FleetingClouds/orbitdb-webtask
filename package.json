@@ -1,0 +1,34 @@
+{
+  "name": "orbitdb-webtask",
+  "version": "1.0.0",
+  "description": "Try to get OrbitDB working in WebTasks",
+  "main": "index.js",
+  "author": "Martin H. Bramwell, Warehouseman",
+  "license": "MIT",
+  "config": {
+    "profile": "Yourself"
+  },
+  "scripts": {
+    "ek": "echo $npm_package_name",
+    "upd": "wt update -p $npm_package_config_profile --bundle $npm_package_name ./src",
+    "updw": "wt update -p $npm_package_config_profile --watch --bundle $npm_package_name ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your0rg/orbitdb-webtask.git"
+  },
+  "keywords": [
+    "passport",
+    "express",
+    "spa",
+    "serverless",
+    "webtask"
+  ],
+  "bugs": {
+    "url": "https://github.com/your0rg/orbitdb-webtask/issues"
+  },
+  "homepage": "https://github.com/your0rg/orbitdb-webtask#readme",
+  "dependencies": {
+    "webtask-tools": "^3.2.1"
+  }
+}
